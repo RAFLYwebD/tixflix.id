@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoice Pemesanan Tiket</title>
+    <style>
+      body {
+        background-image: url(img/tixflix3.png);
+        font-family: Arial, sans-serif;
+        margin-top: 225px;
+      }
+
+      .invoice {
+        background-color: white;
+        max-width: 600px;
+        margin: auto;
+        border: 1px solid #ddd;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      .invoice-details {
+        margin-top: 20px;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: left;
+      }
+
+      th {
+        background-color: #f2f2f2;
+      }
+
+      .total {
+        margin-top: 20px;
+        text-align: right;
+      }
+
+      .thank-you {
+        margin-top: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="invoice">
+      <h2>Invoice Pemesanan Tiket</h2>
+
+      <div class="invoice-details">
+        <p><strong>No. Booking:</strong> ABC123456</p>
+        <p><strong>No. Tiket:</strong> 3</p>
+        <p><strong>Nomor Kartu:</strong> **** **** **** 1234</p>
+        <p><strong>Nama di Kartu:</strong> John Doe</p>
+        <p><strong>Nama Teater:</strong> Teater ABC</p>
+        <p><strong>Area:</strong> Area A</p>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Film</th>
+            <th>Jumlah Tiket</th>
+            <th>Harga Tiket</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Film A</td>
+            <td>2</td>
+            <td>$10.00</td>
+          </tr>
+          <tr>
+            <td>Film B</td>
+            <td>1</td>
+            <td>$5.00</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="total">
+        <p><strong>Total Pembayaran:</strong> $25.00</p>
+      </div>
+
+      <div class="thank-you">
+        <p>Terima kasih atas pemesanan tiket Anda!</p>
+      </div>
+    </div>
+  </body>
+</html>
